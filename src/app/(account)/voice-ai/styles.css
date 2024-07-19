@@ -1,0 +1,41 @@
+/* .card {
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(238, 240, 241, 0.5);
+    border: 1px solid rgba(172, 175, 176, 0.3);
+} */
+
+.form {
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(238, 240, 241, 0.5);
+    border: 1px solid rgba(172, 175, 176, 0.3);
+}
+
+
+.form button {
+    background-color: rgb(32 173 150);
+    color: rgb(255, 255, 255)
+}
+
+
+.button {
+    appearance: none;
+    padding: 0.75rem 0.75rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(172, 175, 176, 1);
+
+}
+
+.button:hover {
+    background: rgb(177, 224, 216);
+}
+
+
+.button:active:enabled {
+    background: linear-gradient(to top left,
+            rgba(239, 245, 249, 1),
+            rgba(228, 232, 233, 1));
+}
