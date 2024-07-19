@@ -28,7 +28,6 @@ const nextConfig = {
       },
     ],
   },
-  distDir: "_static",
 };
 
 export default nextConfig;
