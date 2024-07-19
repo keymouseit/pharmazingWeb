@@ -9,10 +9,9 @@
   "scripts": {
     "dev": "nodemon server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "standalone": "NODE_ENV=production node .next/standalone/server.js",
-    "lint": "next lint",
-    "export": "npm run build && next export -o _static"
+    "lint": "next lint"
   },
   "dependencies": {
     "@deepgram/sdk": "^3.3.3",
